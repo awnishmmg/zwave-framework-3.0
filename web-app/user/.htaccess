@@ -1,0 +1,29 @@
+RewriteEngine On
+php_value include_path '../'
+DirectoryIndex index.php index.html
+
+#All Rewrite Rules
+
+RewriteRule ^(dashboard)$ dashboard.php [L,QSA]
+RewriteRule ^(profile)$ profile.php [L,QSA]
+
+RewriteRule ^(logout)$ logout.php [L,QSA]
+RewriteRule ^(change-password)$ change-password.php [L,QSA]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

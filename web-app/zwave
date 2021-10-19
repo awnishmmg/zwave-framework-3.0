@@ -1,0 +1,16 @@
+<?php
+require_once __DIR__.'/modules/console/execute.php';
+
+$_inPut_xArgumentVariable = 'argv';
+
+try{
+
+	$zwave = new Zwave($$_inPut_xArgumentVariable);
+	$zwave->run();
+	
+}catch(Exception $e){
+	echo $e->getMessage();
+}
+
+
+

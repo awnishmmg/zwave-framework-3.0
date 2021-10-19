@@ -1,0 +1,60 @@
+{
+	"index":{
+		"title":"Admin Dashboard",
+		"bread_title":"Admin/Dashboard"
+	},
+	"web-app/login":{
+		"title":" Login In ",
+		"bread_title":"Login "
+	},
+	"user/dashboard":{
+		"title":" Client Dashboard ",
+		"bread_title":"Client Dashboard",
+		"bread_link":"Client Dashboard"
+	},
+	"user/profile":{
+		"title":"My Profile",
+		"bread_title":"My Account Profile",
+		"bread_link":"Quick Audits"
+	},
+	"user/change-password":{
+	    "title":"Change Password",
+	    "bread_title":"Change Password",
+	    "bread_link":"Change Password"
+	},
+	"admin/manage-user/user":{
+		"title":"Manage User",
+	    "bread_title":"Manage User",
+	    "bread_link":"User Accounts / Users / <a href='admin/manage-user/user' class='text-primary'>Manage<a/>"
+	},
+	"admin/contacts/manage":{
+		"title":"Manage Contacts",
+	    "bread_title":"Manage Contacts",
+	    "bread_link":"Other / Contacts / <a href='admin/contacts/manage' class='text-primary'>Manage<a/>"
+	},
+	"admin/manage-user/add-new":{
+		"title":"Add New User",
+	    "bread_title":"Manage New User",
+	    "bread_link":"User Accounts / Users / <a href='admin/manage-user/add-new' class='text-primary'>Add<a/>"
+	},
+	"admin/manage-user/bds":{
+		"title":"Manage BDE's",
+	    "bread_title":"Manage BDE's",
+	    "bread_link":"User Accounts / BDE / <a href='admin/manage-user/bds' class='text-primary'>Manage<a/>"
+	},
+	"admin/manage-user/add-new-bdagent":{
+		"title":"Add New BDE",
+	    "bread_title":"Add New BDE's",
+	    "bread_link":"User Accounts / BDE / <a href='admin/manage-user/add-new-bdagent' class='text-primary'>Add<a/>"
+	},
+	"admin/department/manage":{
+		"title":"Add Department",
+	    "bread_title":"Add New Department",
+	    "bread_link":"Others / Department / <a href='admin/department/manage/view' class='text-primary'>Add<a/>"
+	},
+	"admin/contacts/add":{
+		"title":"Add New Contact",
+	    "bread_title":"Add New Contact",
+	    "bread_link":"Others / <a href='admin/contacts/manage' class='text-primary'>Contact</a> / <a href='admin/contacts/add' class='text-primary'>Add<a/>"
+	}
+}

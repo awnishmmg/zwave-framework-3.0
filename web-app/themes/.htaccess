@@ -1,0 +1,5 @@
+RewriteEngine On 
+# Add Any Path Your want for Auto Including Path 
+php_value include_path '../' 
+DirectoryIndex index.html index.php 
+Options -Indexes 

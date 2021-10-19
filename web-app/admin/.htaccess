@@ -1,0 +1,31 @@
+RewriteEngine On 
+# Add Any Path Your want for Auto Including Path 
+php_value include_path '../' 
+DirectoryIndex index.html index.php 
+Options -Indexes 
+ 
+RewriteRule ^(dashboard)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-/]+)$ DashboardController.php?_method=$2&_values=$3 [L,QSA] 
+RewriteRule ^(dashboard)/([a-zA-Z0-9\-]+)$ DashboardController.php?_method=$2 [L,QSA] 
+RewriteRule ^(dashboard)$ DashboardController.php [L,QSA] 
+
+RewriteRule ^(manage-user)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-/]+)$ ManageUserController.php?_method=$2&_values=$3 [L,QSA] 
+RewriteRule ^(manage-user)/([a-zA-Z0-9\-]+)$ ManageUserController.php?_method=$2 [L,QSA] 
+RewriteRule ^(manage-user)$ ManageUserController.php [L,QSA] 
+#### [Custom Route] integration Routes for IntegrationController ### 
+
+RewriteRule ^(change-login)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-/]+)$ ChangeLoginController.php?_method=$2&_values=$3 [L,QSA] 
+RewriteRule ^(change-login)/([a-zA-Z0-9\-]+)$ ChangeLoginController.php?_method=$2 [L,QSA] 
+RewriteRule ^(change-login)$ ChangeLoginController.php [L,QSA] 
+
+
+RewriteRule ^(contacts)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-/]+)$ ContactsController.php?_method=$2&_values=$3 [L,QSA] 
+RewriteRule ^(contacts)/([a-zA-Z0-9\-]+)$ ContactsController.php?_method=$2 [L,QSA] 
+RewriteRule ^(contacts)$ ContactsController.php [L,QSA] 
+
+
+RewriteRule ^(department)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-/]+)$ DepartmentController.php?_method=$2&_values=$3 [L,QSA] 
+RewriteRule ^(department)/([a-zA-Z0-9\-]+)$ DepartmentController.php?_method=$2 [L,QSA] 
+RewriteRule ^(department)$ DepartmentController.php [L,QSA] 
+#### [Custom Route] profile Routes for ProfileController ### 
+
+
